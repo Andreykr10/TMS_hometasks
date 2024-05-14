@@ -17,6 +17,6 @@ public class Task2 {
         System.out.println("Новые колеса кривые? = ");
         isCurve = in.nextBoolean();
         System.out.println("Кривое? = "+isCurve);
-
+        System.out.println("Хорошего дня!");
     }
 }
