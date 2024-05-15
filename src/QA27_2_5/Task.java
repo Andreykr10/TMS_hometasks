@@ -13,8 +13,8 @@ public class Task {
                sum = sum + i;
            }
            System.out.println(sum);
-       } else
-           System.out.println("Число должно быть положительным а не "+x);
-
+       } else {
+           System.out.println("Число должно быть положительным а не " + x);
+       }
     }
 }
