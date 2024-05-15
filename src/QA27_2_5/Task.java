@@ -8,9 +8,13 @@ public class Task {
         System.out.println("Введите любое целое положительное число ");
         int x = in.nextInt();
         int sum = 0;
-        for  (int i = 1; i <= x; i++){
-            sum = sum + i;
-        }
-            System.out.println(sum);
+       if (x>0) {
+           for (int i = 0; i <= x; i++) {
+               sum = sum + i;
+           }
+           System.out.println(sum);
+       } else
+           System.out.println("Число должно быть положительным а не "+x);
+
     }
 }
